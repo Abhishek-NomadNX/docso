@@ -1,0 +1,210 @@
+
+.btn-custom {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #477872 ;
+    background-image: linear-gradient(to right, #477872 0%, #6fb0a8 100%);
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    border: 0;
+  }
+  .btn-custom:hover,
+  .btn-custom:focus,
+  .btn-custom.focus,
+  .btn-custom:active,
+  .btn-custom.active {
+    color: #fff;
+    background-image: none;
+    background-color: #477872 ;
+  }
+  .btn:active,
+  .btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  a:focus,
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus,
+  .btn.focus,
+  .btn:active.focus,
+  .btn.active.focus {
+    outline: none;
+    outline-offset: none;
+  }
+
+.intro {
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url('https://code-commanders.vercel.app/uploads/images/land.png') center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  .intro .overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  .intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .intro h1 span {
+    font-weight: 800;
+    color: #5ca9fb;
+  }
+  .intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+  header .intro-text {
+    padding-top: 350px;
+    padding-bottom: 200px;
+    text-align: center;
+  }
+
+  #features {
+    background: #f6f6f6;
+  }
+  #features i.fa {
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    background: linear-gradient(to right,#477872 0%, #6fb0a8 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  #services {
+    background: linear-gradient(to right, #477872 0%, #6fb0a8 100%);
+    color: #fff;
+  }
+  #services .service-desc {
+    margin: 10px 10px 20px;
+  }
+  #services h2 {
+    color: #fff;
+  }
+  #services .section-title h2::after {
+    position: absolute;
+    content: "";
+    background: rgba(255, 255, 255, 0.3);
+    height: 4px;
+    width: 60px;
+    bottom: 0;
+    margin-left: -30px;
+    left: 50%;
+  }
+  #services i.fa {
+    font-size: 42px;
+    width: 120px;
+    height: 120px;
+    padding: 40px 0;
+    background: linear-gradient(to right, #477872 0%, #6fb0a8 100%);
+    border-radius: 50%;
+    color: #fff;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+  }
+  #services h3 {
+    font-weight: 500;
+    padding: 5px 0;
+    color: #fff;
+  }
+  #services p {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #services .service-desc {
+    margin-bottom: 40px;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 100px 0;
+  }
+  .portfolio-item {
+    margin: 1px -15px 0 -14px;
+    padding: 0;
+  }
+  .portfolio-item .hover-bg {
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+  }
+  .hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    background: linear-gradient(
+      to right,
+      rgba(112, 237, 179, 0.8) 0%,
+      rgba(39, 118, 81, 0.8) 100%
+    );
+    padding: 30% 0 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .hover-bg .hover-text > h4 {
+    opacity: 0;
+    color: #fff;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .hover-bg:hover .hover-text > h4 {
+    opacity: 1;
+    /* -webkit-backface-visibility: hidden; */
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .hover-bg:hover .hover-text {
+    opacity: 1;
+  }
+  
+  /* Set width and height */
+  .div-class {
+    width: 20%; /* Set width to 200 pixels */
+    height: 20%; /* Set height to 100 pixels */
+  }
+  
+  /* Set minimum width and height */
+  .div-class {
+    min-width: 20%; /* Set minimum width to 150 pixels */
+    min-height: 40%; /* Set minimum height to 50 pixels */
+  }
+  
+  /* Set maximum width and height */
+  .div-class {
+    max-width: 20%; /* Set maximum width to 300 pixels */
+    max-height: 20%; /* Set maximum height to 200 pixels */
+  }
+  

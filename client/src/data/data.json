@@ -1,0 +1,41 @@
+{
+    "header": {
+      "title": "From diagnosis to recovery,",
+      "paragraph": " we are with you every step of the way. Your health our commitment.",
+      "para" : "Welcome to Docso"
+    },
+    "Services": [
+      {
+        "icon": "carbon:pills",
+        "name": "Wellness and Preventive Care",
+        "text": "Health screenings and check-ups. Vaccinations and immunizations. Health education and lifestyle counseling."
+      },
+      {
+        "icon": "fa6-solid:brain",
+        "name": "Mental Health Services",
+        "text": "Counseling and therapy for mental health disorders.Inpatient and outpatient psychiatric care.Support groups and community resources."
+      },
+      {
+        "icon": "zondicons:mic",
+        "name": "Telemedicine Services",
+        "text": "Virtual consultations with healthcare providers. Remote monitoring of patients' health. Prescription refills and follow-up appointments online."
+      },
+      {
+        "icon": "mdi:heart",
+        "name": "Cardiology Services",
+        "text": "Comprehensive heart health assessments. Interventional cardiology procedures. Rehabilitation programs for cardiac patients."
+      },
+      {
+        "icon": "mdi:virus",
+        "name": "Oncology Care",
+        "text": "Diagnosis and treatment of cancer. Chemotherapy, radiation therapy, and immunotherapy. Support services for cancer patients and their families."
+      },
+      {
+        "icon": "fa6-solid:user-nurse",
+        "name": "Urgent Care Services",
+        "text": "Quick assessment and treatment of minor illnesses and injuries. Immediate access to healthcare professionals for urgent medical needs."
+      }
+    ]
+   
+  }
+  
