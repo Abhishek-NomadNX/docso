@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Icon } from '@iconify/react';
 import logo from '../assets/logo.jpg';
@@ -29,9 +30,10 @@ const Footer = () => {
 
         <div className="flex flex-col space-y-4">
           <h2 className="font-bold text-xl text-gray-100">Contact Us</h2>
-          <p className="text-sm text-gray-300"> Medical Street, Jhansi</p>
+          <p className="text-sm text-gray-300"> 14,1st Floor,Jharna Gate,New Road </p>
+           <p className="text-sm text-gray-300">Jhansi (UP)-284002</p>
           <p className="text-sm text-gray-300">Phone: (+91) 73930 43751</p>
-          <p className="text-sm text-gray-300">Email: support@docso.com</p>
+          <p className="text-sm text-gray-300">Email: docsohealth@gmail.com</p>
 
           <div className="flex space-x-4 mt-4">
             <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="hover:text-blue-500">
